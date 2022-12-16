@@ -1,0 +1,45 @@
+body{
+    background-color: black;
+}
+#home{
+    color: aliceblue;
+}
+#tv{
+    color: aliceblue;
+}
+#np{
+    color: aliceblue;
+}
+#mov{
+    color: aliceblue;
+}
+#ml{
+    color: aliceblue;
+}
+#bbl{
+    color: aliceblue;
+}
+.popular{
+    display: flex;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    margin: 20px 0px 0px 20px;
+}
+.cardsrow{
+    margin-right: 25px;
+}
+.cardsrow:hover {
+    transform: scale(1.09);
+}
+.Trend{
+    display: flex;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    margin: 20px 0px 0px 20px;
+}
+.btn{
+    padding: 5px 20px 0px 20px;
+}
+.footer{
+    height: 300px;
+}
